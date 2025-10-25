@@ -1,0 +1,12 @@
+[project]
+name = "untref-modulo3-automation-miller"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pytest>=8.4.2",
+    "pytest-html>=4.1.1",
+    "selenium>=4.36.0",
+    "webdriver-manager>=4.0.2",
+]
