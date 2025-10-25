@@ -1,0 +1,44 @@
+[
+  {
+    "testid": "pokeapi_case1",
+    "descripcion": "Caso 1: Validar datos de la berry/1",
+    "json_data": {
+      "tc": "pokeapi_case1",
+      "url_base": "https://pokeapi.co/api/v2",
+      "resource": "berry/1",
+      "expectations": {
+        "size": 20,
+        "soil_dryness": 15,
+        "firmness_name": "soft"
+      }
+    }
+  },
+  {
+    "testid": "pokeapi_case2",
+    "descripcion": "Caso 2: Validar datos de la berry/2",
+    "json_data": {
+      "tc": "pokeapi_case2",
+      "url_base": "https://pokeapi.co/api/v2",
+      "resource": "berry/2",
+      "expectations": {
+        "size": 20,
+        "soil_dryness": 15,
+        "firmness_name": "super-hard"
+      }
+    }
+  },
+  {
+    "testid": "pokeapi_case3",
+    "descripcion": "Caso 3: Validar datos de Pikachu",
+    "json_data": {
+      "tc": "pokeapi_case3",
+      "url_base": "https://pokeapi.co/api/v2",
+      "resource": "pokemon/pikachu",
+      "expectations": {
+        "base_experience_min": 10,
+        "base_experience_max": 1000,
+        "type": "electric"
+      }
+    }
+  }
+]

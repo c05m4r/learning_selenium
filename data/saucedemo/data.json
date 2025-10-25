@@ -1,0 +1,108 @@
+[
+  {
+    "testid": "login",
+    "descripcion": "standard",
+    "json_data": {
+      "tc_status": "ok",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  },
+  {
+    "testid": "login",
+    "descripcion": "locked_out_user",
+    "json_data": {
+      "tc_status": "skip",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  },
+  {
+    "testid": "login",
+    "descripcion": "problem_user",
+    "json_data": {
+      "tc_status": "skip",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "problem_user",
+      "password": "secret_sauce"
+    }
+  },
+  {
+    "testid": "login",
+    "descripcion": "performance_glitch_user",
+    "json_data": {
+      "tc_status": "ok",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "performance_glitch_user",
+      "password": "secret_sauce"
+    }
+  },
+  {
+    "testid": "login",
+    "descripcion": "error_user",
+    "json_data": {
+      "tc_status": "skip",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "error_user",
+      "password": "secret_sauce"
+    }
+  },
+    {
+    "testid": "login",
+    "descripcion": "visual_user",
+    "json_data": {
+      "tc_status": "ok",
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "visual_user",
+      "password": "secret_sauce"
+    }
+  },  
+  {
+    "testid": "tc1",
+    "descripcion": "Ordenar productos por precio de menor a mayor",
+    "json_data": {
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "sort_option": "lohi"
+    }
+  },
+  {
+    "testid": "tc2",
+    "descripcion": "Validar errores obligatorios en checkout",
+    "json_data": {
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "first_name": "Marcos",
+      "last_name": "Miller",
+      "postal_code": "3100",
+      "expected_last_name_error": "Error: Last Name is required",
+      "expected_postal_code_error": "Error: Postal Code is required"
+    }
+  },
+  {
+    "testid": "tc3",
+    "descripcion": "Completar compra con múltiples artículos",
+    "json_data": {
+      "base_url": "https://www.saucedemo.com",
+      "dashboard_title": "Swag Labs",
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "first_name": "Marcos",
+      "last_name": "Miller",
+      "postal_code": "3100",
+      "expected_complete_message": "Thank you for your order!"
+    }
+  }
+]
